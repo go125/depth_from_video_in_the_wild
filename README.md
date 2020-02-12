@@ -35,7 +35,7 @@ On Cityscapes we used the default batch size (4), for KITTI we used a batch
 size of 16 (add `--batch_size=16` to the training command).
 
 A command line for running a single training step on the single example in
-`data_example` (for testing):
+`data` (for testing):
 
 ```bash
 python -m depth_from_video_in_the_wild.train \
