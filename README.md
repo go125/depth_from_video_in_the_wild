@@ -39,7 +39,7 @@ A command line for running a single training step on the single example in
 
 ```bash
 python -m depth_from_video_in_the_wild.train \
-  --data_dir=depth_from_video_in_the_wild/data_example \
+  --data_dir=depth_from_video_in_the_wild/data \
   --checkpoint_dir=/tmp/my_experiment --train_steps=1
 ```
 
