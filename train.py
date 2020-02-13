@@ -52,9 +52,9 @@ flags.DEFINE_float('depth_consistency_loss_weight', 0.01,
 
 flags.DEFINE_integer('batch_size', 4, 'The size of a sample batch')
 
-flags.DEFINE_integer('img_height', 100, 'Input frame height.')
+flags.DEFINE_integer('img_height', 192, 'Input frame height.')
 
-flags.DEFINE_integer('img_width', 100, 'Input frame width.')
+flags.DEFINE_integer('img_width', 192, 'Input frame width.')
 
 flags.DEFINE_integer('queue_size', 2000,
                      'Items in queue. Use smaller number for local debugging.')
