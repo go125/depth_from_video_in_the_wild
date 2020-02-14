@@ -171,6 +171,7 @@ def _train(train_model, checkpoint_dir, train_steps, summary_freq):
       train_model.imagenet_init_restorer.restore(sess, FLAGS.imagenet_ckpt)
 
     logging.info('Training...')
+    
     start_time = time.time()
     last_summary_time = time.time()
     steps_per_epoch = train_model.reader.steps_per_epoch

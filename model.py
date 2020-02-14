@@ -144,12 +144,14 @@ class Model(object):
 
     (self.image_stack, self.image_stack_norm, self.seg_stack,
      self.intrinsic_mat, _) = self.reader.read_data()
+    
     if self.learn_intrinsics:
       self.intrinsic_mat = None
     if self.intrinsic_mat is None and not self.learn_intrinsics:
       raise RuntimeError('Could not read intrinsic matrix. Turn '
                          'learn_intrinsics on to learn it instead of loading '
                          'it.')
+    
     self.export('self.image_stack', self.image_stack)
 
     object_masks = []
