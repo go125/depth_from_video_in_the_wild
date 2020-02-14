@@ -144,6 +144,9 @@ class Model(object):
 
     (self.image_stack, self.image_stack_norm, self.seg_stack,
      self.intrinsic_mat, _) = self.reader.read_data()
+     
+    print('results')
+    logging.info('intrinsic_mat: %s',self.intrinsic_mat)
     
     if self.learn_intrinsics:
       self.intrinsic_mat = None
@@ -151,6 +154,8 @@ class Model(object):
       raise RuntimeError('Could not read intrinsic matrix. Turn '
                          'learn_intrinsics on to learn it instead of loading '
                          'it.')
+    
+    logging.info('intrinsic_mat: %s',self.intrinsic_mat)
     
     self.export('self.image_stack', self.image_stack)
 
@@ -269,8 +274,10 @@ class Model(object):
 
           if self.learn_intrinsics:
             intrinsic_mat = 0.5 * (mat + inv_mat)
+            logging.info('intrinsic_mat: %s',intrinsic_mat)
           else:
             intrinsic_mat = self.intrinsic_mat[:, 0, :, :]
+            
 
           def dilate(x):
             # Dilation by n pixels is roughtly max pooling by 2 * n + 1.
