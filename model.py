@@ -65,7 +65,7 @@ class Model(object):
                ssim_weight=3.0,
                batch_size=4,
                img_height=192,
-               img_width=192,
+               img_width=416,
                imagenet_norm=True,
                weight_reg=1e-2,
                random_scale_crop=False,
