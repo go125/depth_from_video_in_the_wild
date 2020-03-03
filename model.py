@@ -64,7 +64,7 @@ class Model(object):
                smooth_weight=1e-2,
                ssim_weight=3.0,
                batch_size=4,
-               img_height=192,
+               img_height=128,
                img_width=416,
                imagenet_norm=True,
                weight_reg=1e-2,
