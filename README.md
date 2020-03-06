@@ -1,3 +1,3 @@
 # Depth from Video in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras
 
-old version
+Modified to apply for my own video
