@@ -3,7 +3,7 @@
 Modified to apply for my own video
 
 
-Input Example
+Input Example (20200310,192x416)
 
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
