@@ -9,6 +9,6 @@ Input Example
 nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/data/result_tokushima_dataprocessing2 \
 --checkpoint_dir=/home/ubuntu/data/tokushima_checkpoint \
---train_steps=30000 &
+--train_steps=60000 &
 ```
 
