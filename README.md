@@ -3,14 +3,13 @@
 Modified to apply for my own video
 
 
-Input Example (20200312)
+Input Example (20200312_2)
 
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
---data_dir /home/ubuntu/data/result_tokushima_dataprocessing3 \
---checkpoint_dir=/home/ubuntu/data/tokushima_checkpoint2 \
---img_height=192 \
---img_width=192 \
---train_steps=50000 &
+--data_dir /home/ubuntu/data/result_tokushima_dataprocessing4 \
+--checkpoint_dir=/home/ubuntu/data/cityscapes_kitti_learned_intrinsics \
+--train_steps=1010000 &
+
 ```
 
