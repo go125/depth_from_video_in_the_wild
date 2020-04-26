@@ -1,6 +1,8 @@
 # Depth from Video in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras
 
-Modified to apply for my own video
+[Original](https://github.com/google-research/google-research/tree/master/depth_from_video_in_the_wild)
+
+This code is modified to apply for my own video.
 
 
 Input Example (20200312_2)
