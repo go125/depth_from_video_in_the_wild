@@ -23,7 +23,7 @@ nohup python -m depth_from_video_in_the_wild.train \
 ### kitti_learned_intrinsics
 
 ```shell
-python inference.py \
+python depth_from_video_in_the_wild.inference \
     --logtostderr \
     --file_extension png \
     --depth \
@@ -36,7 +36,7 @@ python inference.py \
 ### cityscapes_kitti_learned_intrinsics
 
 ```shell
-python inference.py \
+python depth_from_video_in_the_wild.inference \
     --logtostderr \
     --file_extension png \
     --depth \
