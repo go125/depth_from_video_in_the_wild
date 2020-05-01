@@ -8,7 +8,7 @@ This code is modified to apply for my own video.
 
 [Data Preparation](https://github.com/go125/PrepareDataForDFV)
 
-Input Example (20200312_2)
+### Input Example (20200312_2)
 
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
