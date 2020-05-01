@@ -111,7 +111,7 @@ class Model(object):
   def _build_train_graph(self):
     """Build a training graph and savers."""
     self._build_loss()
-    self.saver = tf.train.Saver()
+    self.saver = tf.train.Saver(max_to_keep=0)
     # Create a saver for initializing resnet18 weights from imagenet.
     vars_to_restore = [
         v for v in tf.trainable_variables()
