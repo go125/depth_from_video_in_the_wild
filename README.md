@@ -46,5 +46,5 @@ python inference.py \
 
 You can get model from [here](https://github.com/google-research/google-research/tree/master/depth_from_video_in_the_wild).
 
-
+After use this code, you can calculate Abs Rel Error using [this code](https://github.com/go125/SfmLearner_eval).
 
