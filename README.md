@@ -12,6 +12,14 @@ This code is modified to apply for my own video.
 
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
+--data_dir /home/ubuntu/data/data_example \
+--checkpoint_dir=/home/ubuntu/data/example_experiment_checkpoint_20200501 \
+--train_steps=100 &
+
+```
+
+```script
+nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/data/kitti_result_all_20200501 \
 --checkpoint_dir=/home/ubuntu/data/kitti_experiment_checkpoint_20200501 \
 --train_steps=1000000 &
