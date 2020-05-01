@@ -16,12 +16,12 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ```
 
-## Eval
+## Evaluation (Under Construction)
 
-#### kitti_learned_intrinsics
+### kitti_learned_intrinsics
 
 ```shell
-python inference_dfv.py \
+python inference.py \
     --logtostderr \
     --file_extension png \
     --depth \
@@ -31,7 +31,7 @@ python inference_dfv.py \
     --model_ckpt /home/ubuntu/data/kitti_learned_intrinsics/model-248900
 ```
 
-#### cityscapes_kitti_learned_intrinsics
+### cityscapes_kitti_learned_intrinsics
 
 ```shell
 python inference.py \
