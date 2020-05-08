@@ -29,7 +29,7 @@ nohup python -m depth_from_video_in_the_wild.train \
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/data/kitti_result_all_20200507 \
---checkpoint_dir=/home/ubuntu/data/kitti_experiment_checkpoint_20200507 \
+--checkpoint_dir=/home/ubuntu/data/kitti_experiment_checkpoint_20200508 \
 --train_steps=1000000 &
 
 ```
