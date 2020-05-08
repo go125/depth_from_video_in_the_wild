@@ -50,7 +50,7 @@ flags.DEFINE_float('smooth_weight', 1e-2, 'Smoothness loss weight.')
 flags.DEFINE_float('depth_consistency_loss_weight', 0.01,
                    'Depth consistency loss weight')
 
-flags.DEFINE_integer('batch_size', 4, 'The size of a sample batch')
+flags.DEFINE_integer('batch_size', 16, 'The size of a sample batch')
 
 flags.DEFINE_integer('img_height', 128, 'Input frame height.')
 
