@@ -39,7 +39,7 @@ flags.DEFINE_string('data_dir', None, 'Preprocessed data.')
 
 flags.DEFINE_string('file_extension', 'png', 'Image data file extension.')
 
-flags.DEFINE_float('learning_rate', 1e-4, 'Adam learning rate.')
+flags.DEFINE_float('learning_rate', 2e-4, 'Adam learning rate.')
 
 flags.DEFINE_float('reconstr_weight', 0.85, 'Frame reconstruction loss weight.')
 
@@ -50,7 +50,7 @@ flags.DEFINE_float('smooth_weight', 1e-2, 'Smoothness loss weight.')
 flags.DEFINE_float('depth_consistency_loss_weight', 0.01,
                    'Depth consistency loss weight')
 
-flags.DEFINE_integer('batch_size', 16, 'The size of a sample batch')
+flags.DEFINE_integer('batch_size', 4, 'The size of a sample batch')
 
 flags.DEFINE_integer('img_height', 128, 'Input frame height.')
 
