@@ -34,6 +34,8 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ```
 
+ImageNet Checkpointが公開されていないため実施不能
+
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/data/kitti_result_all_20200513 \
