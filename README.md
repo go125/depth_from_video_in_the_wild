@@ -45,6 +45,14 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ```
 
+## Youtube Dataset
+
+```script
+nohup python -m depth_from_video_in_the_wild.train \
+--data_dir /home/ubuntu/data/tokushima_result20200312 \
+--checkpoint_dir=/home/ubuntu/data/cityscapes_kitti_learned_intrinsics \
+--train_steps=1000000 &
+```
 
 ## Evaluation
 
