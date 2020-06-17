@@ -39,7 +39,7 @@ flags.DEFINE_string('data_dir', None, 'Preprocessed data.')
 
 flags.DEFINE_string('file_extension', 'png', 'Image data file extension.')
 
-flags.DEFINE_float('learning_rate', 2e-4, 'Adam learning rate.')
+flags.DEFINE_float('learning_rate', 1e-4, 'Adam learning rate.')
 
 flags.DEFINE_float('reconstr_weight', 0.85, 'Frame reconstruction loss weight.')
 
