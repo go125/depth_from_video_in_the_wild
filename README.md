@@ -36,6 +36,8 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ## Using ImageNet Checkpoint
 
+[Checkpoint Preparation](https://github.com/dalgu90/resnet-18-tensorflow)
+
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/data/kitti_result_all_20200513 \
