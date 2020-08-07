@@ -47,6 +47,15 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ```
 
+```script
+nohup python -m depth_from_video_in_the_wild.train \
+--data_dir /home/ubuntu/Sayama/out \
+--checkpoint_dir=/home/ubuntu/data/kitti_experiment_checkpoint_20200716 \
+--imagenet_ckpt=/home/ubuntu/data/ResNet18/model.ckpt \
+--train_steps=1000000 &
+
+```
+
 ## Youtube Dataset
 
 ```script
