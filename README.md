@@ -47,6 +47,8 @@ nohup python -m depth_from_video_in_the_wild.train \
 
 ```
 
+## Finetuning with the video taken in Saitama
+
 ```script
 nohup python -m depth_from_video_in_the_wild.train \
 --data_dir /home/ubuntu/Sayama/out \
