@@ -4,7 +4,7 @@
 
 This code is modified to apply for my own video.
 
-*This code is integrated to [this code](https://github.com/go125/struct2depth_eval).
+**This code is integrated to [this code](https://github.com/go125/struct2depth_eval).**
 
 ## Train example
 
