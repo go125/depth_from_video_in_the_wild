@@ -4,6 +4,8 @@
 
 This code is modified to apply for my own video.
 
+*This code is integrated to [this code](https://github.com/go125/struct2depth_eval).
+
 ## Train example
 
 [Data Preparation](https://github.com/go125/PrepareDataForDFV)
@@ -28,9 +30,3 @@ nohup python -m depth_from_video_in_the_wild.train \
 --train_steps=1000000 &
 
 ```
-
-## Evaluation
-
-
-Please use [this code](https://github.com/go125/struct2depth_eval).
-
